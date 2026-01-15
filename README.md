@@ -20,12 +20,12 @@ Automates basic information gathering using common system tools.
 
 Make script executable:
 
-  chmod +x recon.sh
+    chmod +x recon.sh
 
-  ./recon.sh
+    ./recon.sh
 
 Output
 
 Scan results are saved into:
 
-  result-YYYY-MM-DD.txt
+    result-YYYY-MM-DD.txt
