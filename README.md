@@ -1,13 +1,23 @@
 # recon-bash
-Recon script based on bash by using tools (ping, nslookup, nmap)
 
-## Usage:
-First step: add execute access on file
+Simple reconnaissance script written in **Bash**.  
+Automates basic information gathering using common system tools.
 
-    chmod +x ./recon.sh
+## Features
+- ICMP reachability check (`ping`)
+- DNS resolution (`nslookup`)
+- Fast port scan (`nmap -F`)
+- Colored terminal output
+- Saves results to a file with date-based naming
 
-Second step: use it    
-    
-    ./recon.sh
+## Requirements
+- bash
+- ping
+- nslookup
+- nmap
 
-Script only for education and fun usage.
+## Usage
+
+Make script executable:
+```bash
+chmod +x recon.sh
