@@ -21,7 +21,7 @@ Automates basic information gathering using common system tools.
 Make script executable:
 
     chmod +x recon.sh
-
+---
     ./recon.sh
 
 Output
