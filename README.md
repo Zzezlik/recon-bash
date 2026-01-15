@@ -19,5 +19,13 @@ Automates basic information gathering using common system tools.
 ## Usage
 
 Make script executable:
-```bash
-chmod +x recon.sh
+
+  chmod +x recon.sh
+
+  ./recon.sh
+
+Output
+
+Scan results are saved into:
+
+  result-YYYY-MM-DD.txt
